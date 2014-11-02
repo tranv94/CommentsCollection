@@ -12,6 +12,17 @@ $(window).scroll(
     this.previousTop = currentTop;
 });
 
-function annOff() {
-    $("[class=annotator-hl]").css("background-color","white").toggle();
-}
+// function annOff() {
+//     $("[class=annotator-hl]").css("background","white");
+// }
+
+// $(function(){
+//     $('button').on('click', function(){
+//         $('.annotator-hl').toggleClass('annotator-hl')
+//     });
+// });
+$(document).ready(function(){
+   $('button').click(function(){
+       $('.annotator-hl').toggleClass('uber');
+   });
+});

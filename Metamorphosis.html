@@ -16,29 +16,11 @@
 	$(function ($){
 			$('#content').annotator();
 	});
-			var content = $('#content').annotator();
-    		content.annotator('addPlugin', 'Store', {
-      // The endpoint of the store on your server.
-      			prefix: '/',
-
-      // Attach the uri of the current page to all annotations to allow search.
-      annotationData: {
-        'uri': 'http://this/document/only'
-      },
-
-      // This will perform a "search" action when the plugin loads. Will
-      // request the last 20 annotations for the current url.
-      // eg. /store/endpoint/search?limit=20&uri=http://this/document/only
-      loadFromSearch: {
-        'limit': 20,
-        'uri': 'http://this/document/only'
-      }
-    });
 	</script>
 </head>
 <div class="header">
   <a href="index.html"><span style='color: #C39797;'>Co</span>mments<span style='color: #C39797;'>Co</span>llection</a>
-  <span><button class="annOff" onclick="annOff()">Turn Annotations off</button></span>
+  <span><button class="annOff" onclick="annOff()">Toggle Annotations</button></span>
 </div>
 <div class="rest">
 <center id="title">Metamorphosis <br>by Apache Kafka</center>

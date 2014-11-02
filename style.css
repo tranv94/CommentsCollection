@@ -37,3 +37,9 @@ select {
 	font-size: 1px;
 	margin-bottom: 8px;
 }
+button {
+	margin-left: 50px;
+}
+.uber{
+	background: white !important;
+}
