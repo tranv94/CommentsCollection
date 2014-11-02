@@ -1,0 +1,39 @@
+h1 {
+	font-family: 'Poiret One', cursive;
+	padding-top: 140px;
+	font-size: 50px;
+	margin-bottom: -10px;
+}
+
+
+.main{
+	color: #0099CC !important;
+}
+
+center {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+}
+
+select {
+	font-size: 20px;
+	height: 30px;
+	width: 40%;
+}
+#footer {
+	padding-left: 50%;
+	bottom:0;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding-bottom: 9px;
+}
+#contentCurve{
+	padding-top: 350px;
+	width: 50%;
+	margin-left: 350px;
+	border-bottom: 1px solid #ccc;
+	font-size: 1px;
+	margin-bottom: 8px;
+}
