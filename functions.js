@@ -3,10 +3,9 @@ function go_link(){
 }
 
 // function annOff() {
-//     $("class=annotator-hl").css("background", "black");
+//     $("[class=annotator-hl]").css("background" : "white");
 // }
-$(document).ready(function(){
-   $('button').click(function(){
-       $('.annotator-hl').toggleClass('uber');
-   });
+
+$('.annOff').click(function() {
+    $(".annotator-hl").css("background", "white");
 });
